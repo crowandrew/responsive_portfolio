@@ -1,0 +1,25 @@
+body, html {
+  height: 100%;
+}
+.bg{
+  background: linear-gradient(rgba(0, 0, 0, 0.452), rgba(0,0,0,.7)), url("IMG_0247.jpeg");
+  color: #fff;    
+  height: 95%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main > .container {
+  padding: 60px 15px 0;
+}
+
+.footer {
+  background-color: #6d6c6c;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
