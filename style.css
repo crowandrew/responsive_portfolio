@@ -21,9 +21,18 @@ body {
   background-size: cover;
 }
 
+.card { 
+  width: 18rem;
+}
 
 .aboutMain {
   opacity:.9;
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    width: auto;
+  }
 }
 
 
