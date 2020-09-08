@@ -1,23 +1,28 @@
+/* Needed for background image to fill vertical space */
 html, body {
   height: 100%;
 }
 
+/* Added to created background image */
 body {
-  background: linear-gradient(rgba(223, 222, 222, 0.452), rgba(0,0,0,.7)), url("IMG_0247.jpeg");
+  background: linear-gradient(rgba(223, 222, 222, 0.452), rgba(0,0,0,.7)), url("background-image.jpeg");
   color: #fff;    
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+/* Controls card width on Portfolio page */
 .card { 
   width: 18rem;
 }
 
-.aboutMain {
+/* Adds opacity to each main section */
+.addOpacity {
   opacity:.9;
 }
 
+/* On portfolio page it uses all available screen width for a single card on screen less than 576px */
 @media (max-width: 575.98px) {
   .card {
     width: auto;
